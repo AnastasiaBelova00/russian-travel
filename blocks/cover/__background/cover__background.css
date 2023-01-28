@@ -22,7 +22,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .cover__background:hover:before {
@@ -50,6 +50,6 @@
 
 @media screen and (max-width: 320px) {
   .cover__background {
-    background-size: cover;
+    min-height: calc(100vw * 200 / 320);
   }
 }
